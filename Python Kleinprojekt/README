@@ -1,0 +1,11 @@
+# Maze Solver Kleinprojekt.
+
+Dieses Python-Projekt zeigt auf einfache und anschauliche Weise, wie man einen Labyrinth-Solver implementieren und in Echtzeit visualisieren kann. Es nutzt die `curses`-Bibliothek, um das Labyrinth farbig im Terminal darzustellen, und verwendet den Breadth-First Search (BFS)-Algorithmus, um den kürzesten Weg von einem Startpunkt zu einem definierten Ziel zu finden.
+
+Das Labyrinth wird als zweidimensionales Array dargestellt, in dem der Startpunkt mit `O`, das Ziel mit `X` und die Wände mit `#` markiert sind. Sobald Sie das Programm starten, sucht es automatisch nach dem Startpunkt und beginnt, Schritt für Schritt den Weg zum Ziel zu berechnen. Während dieser Suche wird der aktuell verfolgte Pfad in roter Farbe hervorgehoben, während der Rest des Labyrinths in Blau erscheint – so können Sie den Fortschritt der Suche gut nachvollziehen.
+
+Um das Programm auszuführen, benötigt man die `curses`-Bibliothek. Sollte man unter Windows arbeiten, empfehle ich die Installation des Pakets `windows-curses`, da das Standardpaket unter Windows nicht nativ unterstützt wird.
+
+Das Projekt wurde bewusst so aufgebaut, dass es unabhängig von einer bestimmten Entwicklungsumgebung funktioniert. Daher reicht ausschließlich der reine Python-Code (also die `.py`-Dateien). IDE-spezifische Dateien, wie beispielsweise den PyCharm-Ordner (.idea),muss man nicht mit einbeziehen. Dadurch bleibt der Code flexibel und ist in jeder Umgebung einsetzbar.
+
+Gebaut wurde das Kleinprojekt in PyCharm.

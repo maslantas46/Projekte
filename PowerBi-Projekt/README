@@ -1,11 +1,33 @@
-Kontext des Datensatzes: Mitarbeiterbefragung eines US-Amerikanischen Unternehmens bzgl. mehrerer Metriken ihres Jobs (Real-World-Data).
+# Power BI Projekt – Analyse der Mitarbeiterbefragung
 
-Datenbereinigung (in PowerBI) vor der Visualisierung:
+Herzlich willkommen zu meinem Power BI Projekt! In diesem Projekt habe ich einen Datensatz aus einer Mitarbeiterbefragung eines US-amerikanischen Unternehmens analysiert. Dabei handelt es sich um echte, reale Daten, die Ihnen einen umfassenden Einblick in verschiedene Aspekte des Berufslebens geben – von den Jobtiteln über bevorzugte Programmiersprachen bis hin zu Gehaltsangaben.
 
-- Komplett leere Spalten gelöscht: Browser, OS, City, Country, Referrer
+## Hintergrund und Kontext
 
-- Jobtitelanzahl wurde mit Split Column Delimiter Funktion in PowerBI gekürzt & aufgeteilt zu: Data Analyst, Data Architect, Data Engineer, Data Scientist, Database Developer, Other, Student/Looking/None. Sinn: Saubereren und ordentlicheren Datensatz haben.
+Der Datensatz stammt aus einer umfangreichen Umfrage, in der mehrere Metriken zu den Arbeitsbedingungen erfasst wurden. Ziel ist es, anhand dieser Daten Trends und Muster zu erkennen und so fundierte Entscheidungen treffen zu können.
 
-- "Favourite Programming Language" wurde ebenfalls mit Split Column Deliiter gekürzt & aufgeteilt zu: C/C++, Java, JavaScript, Other, Python, R. Mit "What Industry do you work in?" und "In which Country do you work in?" wurde genau so verfahren.
+## Meine Schritte zur Datenbereinigung
 
-- Aus Current Yearly Salary wurde Average Yearly Salary erstellt, da die Teilnehmer teilweise größere Wertebereiche angegeben haben z.B: 125-150k statt 125k oder 150k. 
+Um den Rohdatensatz in einen klar strukturierten und übersichtlichen Datensatz zu verwandeln, habe ich in Power BI folgende Anpassungen vorgenommen:
+
+- Entfernung leerer Spalten:  
+  Ich habe komplett leere Spalten wie *Browser*, *OS*, *City*, *Country* und *Referrer* gelöscht, um nur die relevanten Informationen zu behalten.
+
+- Aufteilung der Jobtitel:  
+  Mithilfe der Funktion *Split Column Delimiter* habe ich die ursprünglichen Jobtitel in übersichtliche Kategorien unterteilt:  
+  *Data Analyst*, *Data Architect*, *Data Engineer*, *Data Scientist*, *Database Developer*, *Other* sowie *Student/Looking/None*.  
+  So entsteht ein sauberer und leichter verständlicher Datensatz.
+
+- Bearbeitung der bevorzugten Programmiersprachen und weiterer Kategorien:  
+  Auch die Spalte *Favourite Programming Language* wurde mit der *Split Column Delimiter*-Funktion bearbeitet und in die Kategorien *C/C++*, *Java*, *JavaScript*, *Other*, *Python* und *R* unterteilt.  
+  Ein ähnliches Vorgehen habe ich bei den Spalten *What Industry do you work in?* und *In which Country do you work in?* angewandt.
+
+- Berechnung des durchschnittlichen Jahresgehalts:
+  Aus der Spalte *Current Yearly Salary* habe ich das *Average Yearly Salary* ermittelt.  
+  Da einige Teilnehmer Gehaltsspannen wie "125-150k" angaben, ermöglicht mir diese Berechnung, konsistentere Werte für die Analyse zu verwenden.
+
+## Ziel und Nutzen des Projekts
+
+Mit der Visualisierung in Power BI wollte ich bezwecken, die aufbereiteten Daten optimal zu nutzen, um Trends und Muster innerhalb des Unternehmens zu erkennen. So kann man gezielt auf Verbesserungspotenziale reagieren und strategische Entscheidungen fundiert untermauern.
+
+Ich hoffe, dass Ihnen dieses Projekt interessante Einblicke bietet!

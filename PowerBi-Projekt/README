@@ -1,1 +1,11 @@
+Kontext des Datensatzes: Mitarbeiterbefragung eines US-Amerikanischen Unternehmens bzgl. mehrerer Metriken ihres Jobs (Real-World-Data).
 
+Datenbereinigung (in PowerBI) vor der Visualisierung:
+
+- Komplett leere Spalten gelöscht: Browser, OS, City, Country, Referrer
+
+- Jobtitelanzahl wurde mit Split Column Delimiter Funktion in PowerBI gekürzt & aufgeteilt zu: Data Analyst, Data Architect, Data Engineer, Data Scientist, Database Developer, Other, Student/Looking/None. Sinn: Saubereren und ordentlicheren Datensatz haben.
+
+- "Favourite Programming Language" wurde ebenfalls mit Split Column Deliiter gekürzt & aufgeteilt zu: C/C++, Java, JavaScript, Other, Python, R. Mit "What Industry do you work in?" und "In which Country do you work in?" wurde genau so verfahren.
+
+- Aus Current Yearly Salary wurde Average Yearly Salary erstellt, da die Teilnehmer teilweise größere Wertebereiche angegeben haben z.B: 125-150k statt 125k oder 150k. 

@@ -1,0 +1,28 @@
+🚀 IBM Data Science Projekt – Vorhersage von Raketenlandungen
+
+Herzlich willkommen zu meinem IBM Data Science Projekt! In diesem Projekt habe ich ein Machine-Learning-Modell entwickelt, um die erfolgreiche Landung der ersten Stufe von SpaceX Falcon 9 Raketen vorherzusagen. Ziel ist es, Kosten zu analysieren und potenzielle wirtschaftliche Vorteile der Wiederverwendbarkeit von Raketenstufen zu bewerten.
+
+📊 Hintergrund und Kontext
+
+SpaceX bietet wiederverwendbare Raketenstarts an, die signifikant günstiger als traditionelle Anbieter sind. Durch die Vorhersage erfolgreicher Erstlandungen kann ein Konkurrenzunternehmen fundierte Entscheidungen über Investitionen in ähnliche Technologien treffen.
+
+🔍 Meine Schritte zur Analyse
+
+    Datenbeschaffung: Nutzung der SpaceX API & Web Scraping zur Erfassung relevanter Daten.
+
+    Datenaufbereitung: Bereinigung und Strukturierung der Daten mittels SQL.
+
+    Explorative Datenanalyse (EDA): Identifikation von Trends durch Visualisierungen (Line, Bar, Scatter, Heatmaps).
+
+    Prädiktive Modellierung: Klassifikationsmodelle (KNN, SVM, Entscheidungsbäume, Logistische Regression) mit GridSearchCV für Hyperparameteroptimierung.
+
+    Modellbewertung: Berechnung von Genauigkeit, Präzision, Recall und F1-Score.
+
+🎯 Ziel und Nutzen
+
+Dieses Projekt zeigt, wie Data Science genutzt werden kann, um wirtschaftliche Entscheidungen in der Luft- und Raumfahrtbranche zu verbessern. Die entwickelten Modelle können Unternehmen helfen, potenzielle Einsparungen durch wiederverwendbare Raketen zu quantifizieren.
+
+Was die ganzen Dateien im "einzelne Aufgaben" Ordner anbelangt so sind diese basierend auf den Aufgaben die durch den IBM Data Science Kurs vorgegeben wurden, entstanden. Auf diese wird ebenfalls in der IBM Großprojekt PDF referiert.
+Die "Hauptdatei" ist hierbei die PDF "Big Project IBM Data Science by Muhammed Aslantas" in dem alles zusammengefasst wurde. Die restlichen .ipynb Dateien können sie sich natürlich bei intensiverem Interesse ebenfalls in Jupyter Notebook anschauen.
+
+Ich hoffe, dass dieses Projekt spannende Einblicke bietet.

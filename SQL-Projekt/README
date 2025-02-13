@@ -1,0 +1,23 @@
+📌 SQL-Projekt – Analyse von Unternehmensentlassungen
+
+Herzlich willkommen zu meinem SQL-Projekt! In diesem Projekt habe ich einen Datensatz analysiert, der weltweite Entlassungen in Unternehmen verschiedener Branchen umfasst. Ziel ist es, Muster und Trends zu erkennen, um ein besseres Verständnis für wirtschaftliche Entwicklungen zu gewinnen.
+
+📊 Hintergrund und Kontext:
+
+Der Datensatz enthält reale Daten über Unternehmen, die Anzahl der Entlassungen, Finanzierungsphasen und Standorte. Durch gezielte SQL-Abfragen werden Einblicke in die Verteilung und Ursachen der Entlassungen ermöglicht.
+
+🔍 Meine Schritte zur Analyse:
+
+Datenbankstruktur erstellt: Tabellen für eine saubere Datenhaltung definiert.
+
+Daten importiert und bereinigt: Fehlende Werte identifiziert und verarbeitet.
+
+SQL-Abfragen durchgeführt: Wichtige Fragen zur Entlassungshäufigkeit, betroffenen Branchen und geografischen Mustern beantwortet.
+
+🎯 Ziel und Nutzen:
+
+Mit diesem Projekt möchte ich Einblicke in Unternehmensentscheidungen bieten und datengetriebene Analysen durchführen. Die gewonnenen Erkenntnisse helfen, wirtschaftliche Trends besser zu verstehen.
+
+Ich hoffe, dass dieses Projekt interessante Einblicke bietet.
+
+

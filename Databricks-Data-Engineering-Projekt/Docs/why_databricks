@@ -1,0 +1,8 @@
+# Why Databricks
+
+Databricks wurde gewählt aufgrund:
+- Skalierbarkeit
+- PySpark Integration
+- Workflow Orchestrierung
+- Delta Lake Unterstützung
+- einfacher Zusammenarbeit

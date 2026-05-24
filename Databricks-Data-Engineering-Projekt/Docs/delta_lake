@@ -1,0 +1,3 @@
+# Delta Lake
+
+Delta Lake wurde verwendet, um zuverlässige Datenpipelines mit ACID-Transaktionen und Schema Enforcement zu ermöglichen.

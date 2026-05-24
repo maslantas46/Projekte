@@ -1,1 +1,48 @@
+# Rohdaten
 
+Dieser Ordner enthält die Rohdaten des Databricks Data Engineering Projekts.
+
+Die Daten simulieren fragmentierte und inkonsistente Datenquellen eines E-Commerce-Unternehmens nach einer Unternehmensübernahme.
+
+## Enthaltene Datensätze
+
+- brands.csv
+- category.csv
+- customers.csv
+- date.csv
+- products.csv
+
+Die Rohdaten werden im Bronze Layer ingestiert und anschließend im Silver Layer bereinigt und standardisiert.
+
+## Eigenschaften der Rohdaten
+
+Die Daten repräsentieren typische Herausforderungen moderner Data-Engineering-Projekte:
+
+- unterschiedliche Datenquellen
+- inkonsistente Formate
+- fehlende Werte
+- heterogene Strukturen
+- unstrukturierte Wachstumssysteme
+
+## Verwendungszweck
+
+Die Rohdaten dienen als Grundlage für:
+
+- ETL-Pipelines
+- Medallion Architecture
+- Delta Lake Verarbeitung
+- analytische Gold-Tabellen
+- Dashboards und KPI-Reporting
+
+## Datenfluss
+
+```text
+Rohdaten
+   ↓
+Bronze Layer
+   ↓
+Silver Layer
+   ↓
+Gold Layer
+   ↓
+Analytics Dashboard

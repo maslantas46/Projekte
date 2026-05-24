@@ -1,1 +1,64 @@
+# Screenshots
 
+Dieser Ordner enthält Screenshots der implementierten Databricks Data Platform und der verschiedenen Verarbeitungsschichten des Projekts.
+
+Die Screenshots dokumentieren die technische Umsetzung der Medallion Architecture sowie die strukturierte Organisation der Datenplattform.
+
+## Enthaltene Screenshots
+
+### Catalog Structure
+Zeigt die Struktur des Databricks Catalog Explorers mit den verschiedenen Schemas:
+
+- bronze
+- silver
+- gold
+- source_schema
+
+### Bronze Layer
+Darstellung der Rohdaten-Tabellen im Bronze Layer.
+
+Beispiele:
+- brz_customers
+- brz_products
+- brz_order_items
+
+Der Bronze Layer speichert die ingestierten Rohdaten ohne umfangreiche Transformationen.
+
+### Silver Layer
+Darstellung der bereinigten und standardisierten Tabellen im Silver Layer.
+
+Beispiele:
+- slv_customers
+- slv_products
+- slv_order_items
+
+Der Silver Layer verbessert die Datenqualität und harmonisiert inkonsistente Datenstrukturen.
+
+### Gold Layer
+Darstellung der analytisch optimierten Tabellen im Gold Layer.
+
+Beispiele:
+- gld_dim_customers
+- gld_dim_products
+- gld_fact_order_items
+- fact_transactions_denorm
+
+Der Gold Layer dient als Grundlage für Reporting, Analytics und Dashboards.
+
+## Ziel der Architektur
+
+Die Architektur wurde entwickelt, um:
+
+- fragmentierte Datenquellen zu vereinheitlichen
+- skalierbare Datenpipelines bereitzustellen
+- analytische Konsistenz sicherzustellen
+- zuverlässige Business-Reports zu ermöglichen
+
+## Technologien
+
+- Databricks
+- Delta Lake
+- PySpark
+- Databricks Catalog Explorer
+- Medallion Architecture
+- Serverless SQL Warehouse

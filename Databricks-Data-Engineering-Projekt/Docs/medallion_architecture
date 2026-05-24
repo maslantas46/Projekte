@@ -1,0 +1,12 @@
+# Medallion Architecture
+
+Das Projekt verwendet die Medallion Architecture zur Trennung von Rohdaten, bereinigten Daten und analytischen Daten.
+
+## Bronze Layer
+Speicherung der Rohdaten.
+
+## Silver Layer
+Datenbereinigung und Standardisierung.
+
+## Gold Layer
+Analytisch optimierte Tabellen für Reporting und Dashboards.

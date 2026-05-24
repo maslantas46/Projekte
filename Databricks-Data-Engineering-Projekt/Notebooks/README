@@ -1,1 +1,64 @@
+# Notebooks
 
+Dieser Ordner enthält die Databricks-Notebooks des Data Engineering Projekts.
+
+Die Notebooks implementieren eine End-to-End ETL- und Analytics-Pipeline basierend auf der Medallion Architecture (Bronze, Silver, Gold).
+
+## Struktur
+
+### 1. Schritt: Setup
+
+Enthält:
+- Erstellung von Catalogs
+- Erstellung von Schemas
+- Initialisierung der Umgebung
+- Setup der Datenplattform
+
+### 2. Schritt: Medallion Processing
+
+Enthält die Verarbeitung der Dimensionstabellen:
+
+- Bronze Layer
+- Silver Layer
+- Gold Layer
+
+Die Daten werden:
+- ingestiert
+- bereinigt
+- standardisiert
+- analytisch optimiert
+
+## Verarbeitete Dimensionen
+
+- Kunden
+- Produkte
+- Kategorien
+- Datum
+
+### 3. Schritt: Fact Processing
+
+Enthält die Verarbeitung von Faktendaten und Transaktionen.
+
+Dazu gehören:
+- Verkaufsdaten
+- Bestellungen
+- analytische Faktentabellen
+- denormalisierte Reporting-Tabellen
+
+## Verwendete Technologien
+
+- Databricks
+- PySpark
+- Delta Lake
+- Databricks SQL
+- Databricks Workflows
+- Serverless Compute
+
+## Ziel der Notebooks
+
+Die Notebooks wurden entwickelt, um:
+
+- fragmentierte Datenquellen zu vereinheitlichen
+- Datenqualität zu verbessern
+- skalierbare Datenpipelines bereitzustellen
+- analytische Dashboards zu ermöglichen

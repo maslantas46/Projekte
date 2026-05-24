@@ -1,1 +1,39 @@
+# Dashboard
 
+Dieser Ordner enthält das analytische Sales Dashboard des Databricks Data Engineering Projekts.
+
+Das Dashboard basiert auf den Gold-Layer-Tabellen und ermöglicht die Analyse vereinheitlichter E-Commerce-Daten nach der Integration mehrerer Datenquellen.
+
+## Enthaltene Analysen
+
+- Monatliche Umsatztrends
+- Umsatz nach Kategorien
+- KPI-Visualisierungen
+- Heatmaps für Verkaufsaktivitäten
+- Analytische Business-Insights
+
+## Datenquelle
+
+Das Dashboard verwendet analytisch optimierte Gold-Tabellen wie:
+
+- gld_fact_order_items
+- gld_dim_products
+- gld_dim_customers
+- gld_dim_date
+- fact_transactions_denorm
+
+## Ziel des Dashboards
+
+Das Dashboard wurde entwickelt, um:
+
+- zentrale Business-KPIs bereitzustellen
+- inkonsistente Reports zu vereinheitlichen
+- datengetriebene Entscheidungen zu unterstützen
+- skalierbare Analytics zu ermöglichen
+
+## Technologien
+
+- Databricks SQL
+- Databricks Dashboards
+- Delta Lake
+- Gold Layer Analytics

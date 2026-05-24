@@ -1,0 +1,12 @@
+# Star Schema Modeling
+
+Das Projekt verwendet Dimensionstabellen und Faktentabellen zur analytischen Modellierung.
+
+## Dimensionstabellen
+- Kunden
+- Produkte
+- Datum
+
+## Faktentabellen
+- Bestellungen
+- Verkaufsdaten
